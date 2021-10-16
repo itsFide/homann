@@ -339,6 +339,9 @@ span.swiper-pagination-bullet{
     font-size: 18px;
     text-align: center;
 }
+.header-mobile-nav-list{
+    display: none;
+}
 @media screen and (max-width:1850px) {
     .products-title{
         overflow: hidden;
@@ -369,6 +372,13 @@ span.swiper-pagination-bullet{
     ul.header-nav-list{
         display: none;
     }
+    .header-mobile-nav-list{
+        display: flex;
+        align-items: center;
+    }
+    .header-mobile-nav-list li{
+        margin-right: 15px;
+    }
 }
 @media screen and (max-width:850px){
     .products-item{
@@ -391,6 +401,10 @@ span.swiper-pagination-bullet{
     }
     .slider-prev{
         left: 25px;
+    }
+    ul.header-mobile-nav-list > li > a > img{
+        width: 80px;
+        height: 80px;
     }
 }
 @media screen and (max-width:480px){
@@ -447,6 +461,52 @@ span.swiper-pagination-bullet{
     }
     .slider{
         margin-bottom: 10px;
+    }
+    .header-top-lang{
+        margin-top: 15px;
+    }
+    .header-burger{
+        width: 45px;
+        height: 30px;
+    }
+    .header-top-lang-button img{
+
+        width: 40px;
+        height: 25px;
+    }
+    .products-title::before{
+        content: "";
+        width: 100%;
+        height: 5px;
+        top: 5px;
+        background: #7281d3;
+        background: linear-gradient(90deg, rgba(255,255,255,0.8239670868347339) 0%, rgba(114,128,211,1) 7%, rgba(114,128,211,1) 91%, rgba(241,241,241,1) 100%);
+    }
+    .products-title::after{
+        content: "";
+        width: 100%;
+        height: 5px;
+        bottom: 5px;
+        background: #7281d3;
+        background: linear-gradient(90deg, rgba(255,255,255,0.8239670868347339) 0%, rgba(114,128,211,1) 7%, rgba(114,128,211,1) 91%, rgba(241,241,241,1) 100%);
+    }
+    .footer-inner::before{
+        content: "";
+        width: 100%;
+        height: 5px;
+        top: 5px;
+        background: #7281d3;
+        background: linear-gradient(90deg, rgba(255,255,255,0.8239670868347339) 0%, rgba(114,128,211,1) 7%, rgba(114,128,211,1) 91%, rgba(241,241,241,1) 100%); 
+    }
+    ul.header-mobile-nav-list > li > a > img{
+        width: 40px;
+        height: 40px;
+    }
+    .header-burger{
+        margin-right: 25px;
+    }
+    .footer-text p{
+        font-size: 11px;
     }
 }
 @media screen and (max-width:360px){
