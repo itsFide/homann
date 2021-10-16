@@ -413,7 +413,7 @@ span.swiper-pagination-bullet{
         height: 80px;
     }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:560px){
     .header-logo-text a>p{
         font-size: 43px;
     }
