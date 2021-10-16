@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homann</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -56,7 +57,29 @@
                     </ul>
                 </nav>
             </div>
+            <!-- Slider main container -->
+            <div class="swiper slider">
+              <!-- Additional required wrapper -->
+              <div class="slider-wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
+                <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
+                <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination slider-dots"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev slider-prev"></div>
+              <div class="swiper-button-next slider-next"></div>
+            </div>
         </div>
     </header>
+    <section class="articles">
+        <div class="container"></div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
