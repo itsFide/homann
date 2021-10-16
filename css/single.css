@@ -75,4 +75,7 @@
         width: 200px;
         height: 105px;
     }
+    .galleria-dots{
+        bottom: 7% !important; 
+    }
 }
