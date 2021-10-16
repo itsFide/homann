@@ -64,6 +64,9 @@
     text-align: center;
     text-transform: uppercase;
 }
+.galleria-dots{
+    bottom: 7% !important;
+}
 @media screen and (max-width:560px) {
     .single-descr p{
         font-size: 18px;
@@ -75,7 +78,5 @@
         width: 200px;
         height: 105px;
     }
-    .galleria-dots{
-        bottom: 7% !important; 
-    }
+
 }
