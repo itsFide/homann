@@ -92,6 +92,7 @@ li{
     color: #fff;
     font-size: 50px;
     border-top: 5px solid #fff;
+    padding: 10px 0;
     border-bottom: 5px solid #fff;
 }
 /* .mobile-menu.active + .header-nav > nav > .header-burger{
@@ -487,7 +488,6 @@ span.swiper-pagination-bullet{
     }
     .mobile-menu-title {
         font-size: 38px;
-        text-align: center;
     }
 }
 @media screen and (max-width:560px){
@@ -600,10 +600,13 @@ span.swiper-pagination-bullet{
         overflow-y: scroll;
     }
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:480px){
     .mobile-menu-title{
         font-size: 23px;
     }
+}
+@media screen and (max-width:360px){
+    
     .mobile-menu-list > li{
         margin-bottom: 7px;
     }
