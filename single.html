@@ -7,6 +7,7 @@
     <title>Homann</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/single.css">
 </head>
 <body>
     <header class="header">
@@ -58,7 +59,9 @@
                             <li><a href="#"><img src="img/menu-icon-7.png" alt=""></a></li>
                             <li><a href="#"><img src="img/menu-icon-8.png" alt=""></a></li>
                         </ul>
+                        
                     </div>
+                    
                     <ul class="header-nav-list">
                         <li><a href="#"><img src="img/menu-icon-1.png" alt=""></a></li>
                         <li><a href="#"><img src="img/menu-icon-2.png" alt=""></a></li>
@@ -72,10 +75,11 @@
                 </nav>
             </div>
             <!-- Slider main container -->
-            <div class="swiper slider">
+            <div class="swiper-container swiper slider">
               <!-- Additional required wrapper -->
               <div class="slider-wrapper swiper-wrapper">
                 <!-- Slides -->
+                <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
                 <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
                 <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
                 <div class="swiper-slide slider-slide"><img src="img/slide-1.jpg" alt=""></div>
@@ -97,96 +101,75 @@
             </div>
         </div>
     </header>
-    <section class="products">
+    <section class="single">
         <div class="container">
-            <div class="products-title">
-                <h3>An entire range of goods and services just for you</h3>
-            </div>
-            <div class="products-items">
-                <!-- item -->
-                <a style="background-image: url(img/product-img-1.jpg);" class="products-item" href="archive.html">
-                    <div class="product-title">
-                        <p>Interior design, Upholstery design..</p>
-                    </div>
-                    <div class="product-cat">
-                        <h4>Home</h4>
-                    </div>
-                </a>
-                <!-- item -->
-                <a style="background-image: url(img/product-img-2.jpg);" class="products-item" href="archive.html">          
-                    <div class="product-cat">
-                        <h4>YACHTS</h4>
-                    </div>
-                    <div class="product-title">
-                        <p>Yacht awnings, Yacht upholstery..</p>
-                    </div>
-                </a>
-                <a style="background-image: url(img/product-img-3.jpg);" class="products-item" href="archive">
-                    <div class="product-cat">
-                        <h4>BUSINESS</h4>
-                    </div>
-                    <div class="product-title">
-                        <p>Interior Design, Commercial Furniture..</p>
-                    </div>
-                </a>
-                <!-- item -->
-                <a class="products-item" style="background-image: url(img/product-img-4.jpg);" href="archive.html">
-                    <div class="product-cat">
-                        <h4>BUSINESS</h4>
-                    </div>
-                    <div class="product-title">
-                        <p>Interior Design, Commercial Furniture..</p>
-                    </div>
-                </a>
-
-                <!-- item -->
-                <a style="background-image: url(img/product-img-5.jpg);" class="products-item" href="archive.html">
-                    <div class="product-cat">
-                        <h4>BUSINESS</h4>
-                    </div>
-                    <div class="product-title">
-                        <p>Interior Design, Commercial Furniture..</p>
-                    </div>  
-                </a>
-
-                <!-- item -->
-                <a style="background-image: url(img/product-img-6.jpg);" class="products-item" href="archive.html">
-                    <div class="product-cat">
-                        <h4>MARKETING</h4>
-                    </div>
-                    <div class="product-title">
-                        <p>Möbel für Business</p>
-                    </div>
-                </a>
-                <!-- item -->
-                <a style="background-image: url(img/product-img-7.jpg);" class="products-item" href="archive.html">
-                    <div>
-                        <div class="product-cat">
-                            <h4>OUTSOURCING</h4>
-                        </div>
-                        <div class="product-title">
-                            <p>Entwicklung von Produkten</p>
+            <div class="single-inner">
+                <div class="products-title">
+                    <h3>An entire range of goods and services just for you</h3>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper swiper-container galleria-slider">
+                <!-- Additional required wrapper -->
+                <div class="galleria-slider-wrapper swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-2.jpg" alt=""></div>
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-3.jpg" alt=""></div>
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-4.jpg" alt=""></div>
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-5.jpg" alt=""></div>
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-6.jpg" alt=""></div>
+                  <div class="swiper-slide galleria-slide"><img src="img/product-img-6.jpg" alt=""></div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination slider-dots"></div>
+              
+                <!-- If we need navigation buttons -->
+                
+                </div>
+                <div class="swiper image-mini-slider">
+                <div class="image-mini-slider-wrapper swiper-wrapper">
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-2.jpg" alt="">
                         </div>
                     </div>
-                </a>
-                <!-- item -->
-                <a style="background-image: url(img/product-img-8.jpg);" class="products-item" href="archive.html">
-                    <div class="product-cat">
-                        <h4>BUSINESS</h4>
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-3.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="product-title">
-                        <p>Interior Design, Commercial Furniture..</p>
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-4.jpg" alt="">
+                        </div>
                     </div>
-                </a>
-                <!-- item -->
-                <a style="background-image: url(img/product-img-9.jpg);" class="products-item" href="archive.html">
-                    <div class="product-cat">
-                        <h4>BUSINESS</h4>
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-5.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="product-title">
-                        <p>Interior Design, Commercial Furniture..</p>
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-6.jpg" alt="">
+                        </div>
                     </div>
-                </a>
+                    <div class="image-mini-slider-slide swiper-slide">
+                        <div class="image-mini-slider-image">
+                            <img src="img/product-img-6.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-button-prev slider-prev2"></div>
+                <div class="swiper-button-next slider-next2"></div>
+                </div>
+                <div class="single-title">
+                    <h4>Do you love luxury?  We love perfection!</h4>
+                </div>
+                <div class="single-descr">
+                    <p>The name Homann stands for highest quality standards, individual creativity and attention to detail.
+                        The absolute satisfaction of the demanding clientele speaks for itself. </p>
+                </div>
             </div>
         </div>
     </section>
@@ -202,6 +185,6 @@
         </div>
     </footer>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/single.js"></script>
 </body>
 </html>

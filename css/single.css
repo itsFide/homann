@@ -1,0 +1,78 @@
+.image-mini-slider-slide{
+    opacity: 0.2;
+    transition: opacity .3s;
+}
+.image-mini-slider-slide.swiper-slide-thumb-active{
+    opacity: 1;
+}
+.image-mini-slider-image{
+    position: relative;
+    width: 336px;
+    height: 208px;
+    cursor: pointer;
+}
+.swiper-slide img{
+    border-radius: 10px;
+    width: 100%;
+}
+.image-mini-slider-image img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.slider-next2::after{
+    content: url(../img/arrow-right-mini.png);
+}
+.slider-prev2{
+    left: 65px;
+}
+.slider-next2{
+    right: 65px;
+    z-index: 10;
+}
+.slider-prev2::after{
+    content: url(../img/arrow-left-mini.png);
+}
+.image-mini-slider-slide{
+    display: flex;
+    justify-content: center;
+}
+.single-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.single-title h4{
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.single-descr{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.single-descr p{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media screen and (max-width:560px) {
+    .single-descr p{
+        font-size: 18px;
+    }
+    .single-title h4{
+        font-size: 22px;
+    }
+    .image-mini-slider-image{
+        width: 200px;
+        height: 105px;
+    }
+}

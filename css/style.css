@@ -601,7 +601,7 @@ span.swiper-pagination-bullet{
     }
 }
 @media screen and (max-width:480px){
-    .mobile-menu-title{
+.mobile-menu-title{
         font-size: 23px;
     }
 }
