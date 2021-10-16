@@ -14,3 +14,10 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+//  Burger
+let burger = document.querySelector(".header-burger")
+let mobileMenu = document.querySelector(".mobile-menu")
+burger.addEventListener('click', ()=>{
+    mobileMenu.classList.toggle('active')
+    burger.classList.toggle('active')
+})
