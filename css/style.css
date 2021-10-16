@@ -104,6 +104,11 @@ li{
 .mobile-menu-list{
     padding-top: 120px;
     padding-left: 50px;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+.mobile-menu-title{
+    margin-bottom: 25px;
 }
 .mobile-menu-list > li {
     margin-bottom: 25px;
@@ -131,6 +136,7 @@ li{
 .header-burger{
     width: 103px;
     height: 76px;
+    cursor: pointer;
     position: relative;
     margin-right: 105px;
 }
